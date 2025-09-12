@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: grey;
+    border: 1px-solid black;
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    border: 1px dotted black;
+    text-align: center;
+    order: 3;
+}
+.child2{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border: 1px dotted black;
+    text-align: center;
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 1px dotted black; 
+    text-align: center;  
+}
+.child4{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 1px dotted black;
+    text-align: center;
+}

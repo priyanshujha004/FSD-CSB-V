@@ -1,0 +1,78 @@
+/* body{
+    background-color: blueviolet;
+} */
+
+ /* p{
+    background-color: rgb(94, 255, 0);
+    color: rgb(62, 16, 231);
+} */
+/*h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(25, 168, 179);
+}*/
+/* #home{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(99, 99, 8);
+    background-color: yellow;
+}
+
+.footer{
+    background-color: blueviolet;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/* DECENDENT : All paragraph decendent of div are styled through it. */
+/* div p{
+    background-color: red;
+    color: white;
+}
+
+/* CHILD : Only direct child of div are styled through it. */
+/* div>p{
+    background-color: red;
+    color: white;
+} */
+
+/* ADJACENT SIBLING : Only the paragraph which is immediately right after the div is styled through it.*/
+/* div+p{
+    background-color: red;
+    color: white;
+} */
+
+/* GENERAL SIBLING : All the paragraph which are right after the div are styled through it. */
+div~p{
+    background-color: red;
+    color: white;
+}
+
+/* PSEUDO CLASS : It is used to define a special state of an element. */
+p:hover{
+    font-size: xx-large;
+    color: aqua;
+}
+/* PSEUDO ELEMENT : It is used to define a special part of an element. */
+p::after{
+    content: " This is after pseudo element";
+    color: green;
+    background-color: yellow;
+}
+p::before{
+    content: "This is before pseudo element ";
+    color: white;
+    background-color: blue;
+}
+/* selection pseudo element : It is used to style the portion of an element that is selected by the user. */
+p::selection{
+    background-color: green;
+}
+/* nth-child : It is used to select the element that is the nth child of its parent, counting all types of elements (tag names). */
+p:nth-child(2){
+    background-color: orange;
+    color: white;
+}
+/* nth-of-type : It is used to select the element that is the nth child of its parent, counting only elements of the same type (tag name). */
+div p:nth-of-type(1){
+    background-color: purple;
+    color: white;
+}
