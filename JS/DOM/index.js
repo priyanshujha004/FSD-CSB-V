@@ -37,7 +37,4 @@ function displayData() {
 }, 1000);
 
 }
-
-    
-
 button.addEventListener('click', displayData);
